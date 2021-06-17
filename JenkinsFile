@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage("Awesome Stage") {
             steps {
-                echo "Current build version :: $BUILDVERSION"
+                echo "Current build version is :: $BUILDVERSION"
             }
         }
     }
